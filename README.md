@@ -63,9 +63,6 @@ Now that I knew the property I had to change it was a simple as hooking both PST
 
 All I did was make a new frame and copy the values from frame, then set the frame to the new one with my modified values. I made the width of each cell 25 less than what Apple made it, and divided by 2. 25/2 = 12.5 but I had to round down to 12. Next I set the width from 375 to 350. This centered it with an even amount of space on each side. Next I hooked the layoutSubviews() method as it is called when the view appears, similar to viewDidLoad.
 
-![alt text](https://github.com/MTACS/MTACS.github.io/blob/master/content/media/simplesettings.jpg?style=center)
-
-img[src$="center"] {
-  display:block;
-  margin: 0 auto;
-}
+<p align="center">
+  <img width="200" height="356" src="https://github.com/MTACS/MTACS.github.io/blob/master/content/media/simplesettings.jpg">
+</p>
